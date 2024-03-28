@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drupal</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left-div">
+        <img src="./background_removed_image.png" alt="" />
+      </div>
+      <div class="right-div">
+        <h1>Translation Interface</h1>
+      </div>
+    </nav>
+    <main>
+      <!-- first div -->
+      <div class="lang-div flex">
+        <div class="lang-left">
+          <h3>Choose a language</h3>
+
+          <select name="" id="">
+            <option value="English">English</option>
+          </select>
+        </div>
+        <div class="lang-right">
+          <h3>0% translated</h3>
+
+          <div class="lang-right-div">Progress bar</div>
+        </div>
+      </div>
+      <!-- second div -->
+      <div class="trans-div flex">
+        <div class="find-trans">
+          <h3>Find and translate</h3>
+          <div>
+        
+            <select name="" id="">
+              <option value="English">Unstranslated strings</option>
+            </select>
+          </div>
+        </div>
+        <div class="trans-search">
+            <img src="./search-interface-symbol.png" alt="" />
+            <!-- <h3>Search</h3> -->
+            <input type="text" placeholder="search" />
+        </div>
+      </div>
+      <!-- 3rd div parent -->
+      <div class="parent-box-head flex">
+        <h2>Source</h2>
+        <h2>Translation</h2>
+      </div>
+      <div class="parent-box">
+        <div class="child-1 flex">
+          <div class="source-1">
+            <p>
+              &lt;a href="@create _ content"&gt;Create Content:&lt;/a&gt; Want
+              to get right to work? Start adding content.
+              &lt;strong&gt;Note:&lt;/strong&gt; the information on this page
+              will go away once you add content to your site. Read on and
+              bookmark resources of interest.
+            </p>
+          </div>
+          <div class="text-1">
+            <textarea name="" id="" cols="80" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="child-2 flex">
+          <div class="source-1">
+            <p>
+              &lt;a href="@drupal_community"&gt;Community Page:&lt;/a&gt; List
+              of key Drupal community groups with their&nbsp;own&nbsp;content
+            </p>
+          </div>
+          <div class="text-1">
+            <textarea name="" id="" cols="80" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="child-3 flex">
+          <div class="source-1">
+            <p>
+              &lt;a href="@drupalevents"&gt;Upcoming Events:&lt;/a&gt; Learn and
+              connect ₩ith others at conferences and
+              events&nbsp;held&nbsp;around&nbsp;the
+            </p>
+          </div>
+          <div class="text-1">
+            <textarea name="" id="" cols="80" rows="5"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <button>Start</button>
+        <button>Close</button>
+      </div>
+
+    </main>
+  </body>
+</html>
